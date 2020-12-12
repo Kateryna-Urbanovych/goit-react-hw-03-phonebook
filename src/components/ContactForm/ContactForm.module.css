@@ -1,0 +1,36 @@
+.form {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+}
+
+.input:hover,
+.input:focus {
+    box-shadow: 0 0 5px 2px #2471a3;
+}
+
+.button {
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.button:active {
+    background-color: #2471a3;
+}

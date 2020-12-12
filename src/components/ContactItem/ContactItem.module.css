@@ -1,0 +1,12 @@
+.btnDelete {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 1px 10px;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.btnDelete:active {
+    background-color: #2471a3;
+}
